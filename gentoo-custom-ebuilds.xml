@@ -1,7 +1,10 @@
-<repositories encoding="unicode" version="1">
-     <repo priority="50" quality="unstable">
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+     <repo priority="50" quality="experimental" status="unofficial">
           <name>gentoo-custom-ebuilds</name>
-	  <description>Various utility ebuilds for Gentoo</description>
+	  <description>Various ebuilds for Gentoo</description>
+	  <homepage>https://github.com/danielpwarren/gentoo-custom-ebuilds/</homepage>
 	  <owner>
                <email>dpwarren455@protonmail.com</email>
                <name>Daniel Warren</name>
