@@ -5,7 +5,8 @@ EAPI=7
 
 DESCRIPTION="A modular status bar written in C intended for dwm"
 HOMEPAGE="https://github.com/danielpwarren/dwmblocks"
-SRC_URI="https://github.com/danielpwarren/${PN}/archive/${PV}.tar.gz"
+inherit git-r3
+EGIT_REPO_URI="https://github.com/danielpwarren/dwmblocks"
 
 LICENSE="ISC"
 SLOT="0"
