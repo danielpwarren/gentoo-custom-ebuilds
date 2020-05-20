@@ -10,7 +10,7 @@ EGIT_REPO_URI="https://github.com/danielpwarren/dwm"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="amd64"
 IUSE="xinerama"
 
 RDEPEND="
