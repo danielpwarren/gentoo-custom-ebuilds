@@ -44,6 +44,9 @@ src_compile() {
 src_install() {
 	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
 
+	exeinto /etc/X11/Sessions
+	newexe "${FILESDIR}"/dwm-session2 dwm
+
 	insinto /usr/share/xsessions
 	doins "${FILESDIR}"/dwm.desktop
 
