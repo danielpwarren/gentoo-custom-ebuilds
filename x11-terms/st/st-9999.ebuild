@@ -10,7 +10,7 @@ EGIT_REPO_URI="https://github.com/danielpwarren/st"
 
 LICENSE="MIT-with-advertising"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 IUSE="savedconfig"
 
 RDEPEND="
