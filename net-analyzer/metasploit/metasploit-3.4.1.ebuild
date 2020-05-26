@@ -3,7 +3,6 @@
 # $Header: $
 
 SRC_URI="http://www.metasploit.com/releases/framework-${PV}.tar.bz2"
-
 DESCRIPTION="Advanced open-source framework for developing, testing, and using vulnerability exploit code"
 HOMEPAGE="http://www.metasploit.org/"
 
@@ -17,8 +16,7 @@ IUSE="gtk sqlite postgres"
 RDEPEND="dev-lang/ruby
 	dev-ruby/rubygems
 	gtk? ( dev-ruby/ruby-libglade2 )
-	sqlite? ( dev-ruby/sqlite3-ruby
-		 dev-ruby/activerecord )
+	sqlite? ( dev-ruby/sqlite3-ruby dev-ruby/activerecord )
 	postgres? ( dev-ruby/ruby-postgres
 		dev-ruby/activerecord )"
 DEPEND=""
