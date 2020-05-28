@@ -12,7 +12,7 @@ if [[ ${PV} == "9999" ]] ; then
 	EGIT_BRANCH="4.x"
 	EGIT_CHECKOUT_DIR="${WORKDIR}"/all
 	inherit git-r3
-	KEYWORDS=""
+	KEYWORDS="~amd64"
 	SLOT="9999"
 else
 	##Tags https://github.com/rapid7/metasploit-framework/releases
