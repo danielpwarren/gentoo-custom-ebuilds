@@ -23,7 +23,7 @@ DEPEND="
 	media-fonts/inconsolata
 	gnome-base/gconf
 	x11-libs/gtk+:2
-	gnome-base/libgnome-keyring
+	app-crypt/libsecret
 	x11-libs/libnotify
 	x11-libs/libXtst
 	dev-libs/nss
