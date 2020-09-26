@@ -99,4 +99,3 @@ src_install() {
 	dosym "${EPREFIX}/usr/share/${PN}/resources/app/atom.sh" /usr/bin/atom
 	dosym "${EPREFIX}/usr/share/${PN}/resources/app/apm/bin/apm" /usr/bin/apm
 }
-
